@@ -1,0 +1,183 @@
+/* Custom ScrollBar */
+::-webkit-scrollbar {
+    width: 10px;
+} 
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {    
+    background: rgb(211, 210, 210);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* GENERAL */
+body {
+    background-color: rgb(0, 0, 0);
+    color:white;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+a h1 h2 h3 h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* NAVBAR SECTION */
+
+/* Mustang Logo */
+.navMustang { 
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    width: 30px;
+    height: 30px;
+}
+.navVendas {
+    margin: auto;
+    display: flex;
+    justify-content: right;
+    width: 40px;
+    height: 40px;
+}
+.container ul {
+    margin-top:0px;
+    margin-bottom: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.container nav {
+    background-color: black;
+    margin:auto;
+    margin-top: 0px;
+    position: sticky;
+    z-index: 9;
+    top: 0;
+}
+nav a {
+    font-size:16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    list-style-type: none;
+}
+
+
+/* HEADER SECTION */
+header .containerImg {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    display:flex;
+    background-color: rgba(31, 29, 29, 0.7);
+    background-image: url(/img/mustangCapa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.topLeft {
+    border-style:inherit;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+}
+
+
+/* MAIN SECTION */
+.btnEspec {
+    display:flex;
+    justify-content: left;
+    margin-right:auto;
+    margin-left:20px;
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 8px;
+}  
+main {
+    padding:30px;
+    text-align: justify;
+    text-indent: 20px;
+}
+main p {
+    margin-bottom:5px;
+}
+main ul {
+    margin-top:10px;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+    justify-content:left;
+    margin-right:auto;
+    margin-left:auto;
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 8px;
+}
+/* CARD SECTION */
+
+
+/* FOOTER SECTION */
+footer {
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    margin:20px;
+}
+footer img {
+    width: 30px;
+    height: 30px;
+}
+
+
+/* HOVER'S */
+.btnEspec:hover {
+    box-shadow: 0 8px 8px 0 rgba(190, 189, 189, 0.24), 0 10px 30px 0 rgba(190, 189, 189, 0.24);
+} 
+.navSobre:hover {
+    color: darkgray;
+}
+.navigation:hover {
+    color:royalblue;
+}
+.twitter:hover {
+    color:royalblue;
+}
+.linkedin:hover {
+    color:royalblue;
+}
+.github:hover {
+    color:royalblue;
+}
+
