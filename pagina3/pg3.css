@@ -1,4 +1,6 @@
 /* Custom ScrollBar */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,200&display=swap');
+
 ::-webkit-scrollbar {
     width: 10px;
 } 
@@ -15,18 +17,25 @@
 }
 
 /* GENERAL */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: #131414;
     color:white;
     margin:auto;
-    font-family: Arial, Helvetica, sans-serif;
 }
 a {
     text-decoration: none;
     color:white;
 }
-a h1 h2 h3 h4 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+hr {
+    background-color: white;
+    opacity: .5;
+    width: 50%;
+    height: .5px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -34,6 +43,7 @@ a h1 h2 h3 h4 {
 
 /* Mustang Logo */
 .navMustang { 
+    font-family:  'Montserrat', sans-serif;
     margin: auto;
     display: flex;
     justify-content: left;
@@ -54,7 +64,7 @@ a h1 h2 h3 h4 {
     text-decoration: none;
 }
 .container nav {
-    background-color: black;
+    background-color: #131414;
     margin:auto;
     margin-top: 0px;
     position: sticky;
@@ -63,7 +73,6 @@ a h1 h2 h3 h4 {
 }
 nav a {
     font-size:16px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav ul {
     display: flex;
@@ -88,7 +97,6 @@ header .containerImg {
 }
 .topLeft {
     border-style:inherit;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 15px;
     position: absolute;
     bottom: 10px;
@@ -115,7 +123,6 @@ header .containerImg {
 main {
     padding:30px;
     text-align: justify;
-    text-indent: 20px;
 }
 main p {
     margin-bottom:5px;
@@ -126,22 +133,62 @@ main ul {
     justify-content: left;
     align-items: center;
 }
-.navigation {
-    display:flex;
-    justify-content:left;
-    margin-right:auto;
-    margin-left:auto;
-    background-color: #555555;
-    border: none;
-    color: white;
-    padding: 10px 24px;
+.sobreCarro {
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    border-radius: 8px;
+    margin:auto;
 }
+
+
 /* CARD SECTION */
+.cardSection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+.card1 {    
+    border-radius: 8px;
+    padding: 20px;
+    background-color: black;
+    width: 200px;
+    height: 250px;
+}
+.card2 {
+    border-radius: 8px;
+    padding: 20px;
+    background-color: black;
+    width: 200px;
+    height: 250px;
+}
+.card3 {
+    border-radius: 8px;
+    padding: 20px;
+    background-color: black;
+    width: 200px;
+    height: 250px;
+}
+
+.cardSection a {
+    padding: 8px;
+    border-radius: 8px;
+    border-style: groove;
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #131414;
+}
+.cardSection h2 {
+    border-radius: 8px;
+    padding: 8px;
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #131414;
+}
 
 
 /* FOOTER SECTION */
