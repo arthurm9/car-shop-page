@@ -83,25 +83,31 @@ nav ul {
 }
 
 
-/* HEADER SECTION */
-header .containerImg {
-    position: relative;
-    height: 400px;
-    width: 100%;
-    display:flex;
-    background-color: rgba(31, 29, 29, 0.7);
-    background-image: url(/img/mustangCapa.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: darken;
+.containerImg {
+    padding: 20px;
+    margin: auto;
+    background-color: black;
+    width: 90%;
+    height: 800px;
 }
-.topLeft {
+
+.audir8 {
+    border-radius: 8px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    height: 400px; 
+    width: 750px;
+}
+
+/*.topLeft {
     border-style:inherit;
     padding: 15px;
     position: absolute;
     bottom: 10px;
     left: 25px;
-}
+} */
 
 
 /* MAIN SECTION */
