@@ -107,8 +107,11 @@ nav ul {
   background-color: #131414;
   color: green;
   margin: auto;
+  align-items: center;
   display: flex;
   text-align: center;
+  border: 1px solid #2e2e2e;
+  cursor: pointer;
 }
 .audir8 {
   border-radius: 8px;
