@@ -113,6 +113,9 @@ nav ul {
   border: 1px solid #2e2e2e;
   cursor: pointer;
 }
+.btnComprar:hover {
+  background-color: #2e2e2e;
+}
 .audir8 {
   border-radius: 8px;
   height: 400px;
