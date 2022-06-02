@@ -26,7 +26,6 @@ body {
   margin: auto;
 }
 a {
-  
   text-decoration: none;
   color: white;
 }
@@ -43,13 +42,16 @@ hr {
 /* NAVBAR SECTION */
 
 /* Mustang Logo */
-.navMustang {
+.navIcon {
   font-family: "Montserrat", sans-serif;
   margin: auto;
   display: flex;
   justify-content: left;
   width: 30px;
   height: 30px;
+}
+.navTitle{
+  font-size: 20px;
 }
 .navVendas {
   margin: auto;
@@ -82,7 +84,6 @@ nav ul {
   padding: 10px 20px;
   list-style-type: none;
 }
-
 .row {
   box-shadow: 8px 8px 3px rgb(16, 16, 16);
   border-radius: 8px;
@@ -91,6 +92,15 @@ nav ul {
   padding: 20px;
   background-color: black;
 }
+/*
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  overflow: visible;
+  background: #fff url('/img/loader.gif') no-repeat center center;
+} */
 .row div {
   flex: 50%;
 }
@@ -146,7 +156,7 @@ footer img {
 }
 
 /* HOVER'S */
-.navSobre:hover {
+.navTitle:hover {
   color: royalblue;
 }
 .navigation:hover {

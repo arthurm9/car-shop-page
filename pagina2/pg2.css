@@ -42,13 +42,16 @@ hr {
 /* NAVBAR SECTION */
 
 /* Mustang Logo */
-.navMustang {
+.navIcon {
   font-family: "Montserrat", sans-serif;
   margin: auto;
   display: flex;
   justify-content: left;
   width: 30px;
   height: 30px;
+}
+.navTitle{
+  font-size: 20px;
 }
 .navVendas {
   margin: auto;
@@ -145,7 +148,7 @@ footer img {
 }
 
 /* HOVER'S */
-.navSobre:hover {
+.navTitle:hover {
   color: royalblue;
 }
 .navigation:hover {
